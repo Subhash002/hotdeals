@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+body {
+    padding: 0;
+    margin: 150px;
+
+    background-color: whitesmoke;
+    display: flex;
+
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.app {
+    margin-top: 20px;
+    width: 550px;
+    height: 680px;
+    border-radius: 50px;
+
+    background: radial-gradient(circle at bottom center, #FFC837 15px, #FF8008);
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+    padding: 60px 30px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+header p {
+    color: white;
+}
+
+.logo-container {
+    height: 50px;
+    position: relative;
+    top: 20px;
+    right: 10px;
+}
+
+.logo-container img {
+    height: 100%;
+}
+
+h2 {
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+nav::-webkit-scrollbar {
+    display: none;
+}
+
+
+nav {
+    display: flex;
+    width: 550px;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+button.primary {
+    border: none;
+    background-color: green;
+    padding: 18px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 15px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+button.primary:disabled {
+    background-color: rgb(255, 255, 255);
+    color: rgb(172, 172, 172);
+}
+
+.card {
+    height: 100px;
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.card .img-container {
+    height: 100%;
+    width: 100px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card .img-container img {
+    width: 150%;
+}
+
+.card h5,
+.card p {
+    margin: 0;
+}
+
+.card h5 {
+    font-size: 13px;
+}
+
+.card p {
+    font-size: 12px;
+    color: rgb(133, 133, 133);
+}
+
+
+.card .text-container {
+    width: 180px;
+    padding: 0 5px;
+}
+
+.circle {
+    background-color: rgb(3, 140, 140);
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    color: white;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feed {
+    height: 480px;
+    overflow-y: scroll;
+}
+
+.card .info-container {
+    position: relative;
+}
+
+.card .info-container a {
+    position: absolute;
+    top: 65px;
+    right: 5px;
+    text-decoration: none;
+    color: rgb(50, 43, 51);
+}
+
+/* Track */
+::-webkit-scrollbar {
+    width: 8px;
+    /* width of the scrollbar */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    /* color of the scrollbar handle */
+    border-radius: 4px;
+    /* roundness of the scrollbar handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    /* color of the scrollbar handle on hover */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* color of the scrollbar track */
+}
+
+/* Track on hover */
+::-webkit-scrollbar-track:hover {
+    background: #ddd;
+    /* color of the scrollbar track on hover */
+}
